@@ -3,7 +3,9 @@ title: 'Two Forms of Pre-rendering'
 date: '2021-04-05'
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/u7Px3-2lmXc" frameborder="0" allowfullscreen style="margin: 3rem auto; box-shadow: 0px 0px 15px -5px #777777; border-radius: 10px"></iframe>
+<div style='width:80vw; height: 60vh; margin: 0 auto 5rem'>
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/u7Px3-2lmXc" frameborder="0" allowfullscreen style="margin: 3rem auto; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></iframe>
+</div>
 
 Next.js has two forms of pre-rendering: **Static Generation** and **Server-side Rendering**. The difference is in **when** it generates the HTML for a page.
 

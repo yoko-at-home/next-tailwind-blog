@@ -71,10 +71,10 @@ export const Header = () => {
           <div className='animate-spin text-2xl absolute top-14 left-42'>
             ✨
           </div>
-          <div className='animate-spin text-2xl absolute top-15 left-44'>
+          <div className='animate-spin text-2xl absolute top-60 left-90'>
             ✨
           </div>
-          <div className='whitespace-nowrap animate-bounce delay-1000 duration-1000 transition-colors text-blue-500 text-opacity-70 text-7xl absolute top-60 right-25 hover:text-yellow-400'>
+          <div className='whitespace-nowrap animate-bounce delay-1000 duration-1000 transition-colors text-blue-500 text-opacity-70 text-7xl absolute top-60 right-15 hover:text-yellow-400'>
             kotaro's wolrd
           </div>
         </div>
