@@ -2,7 +2,6 @@ import Head from 'next/head';
 import type { ReactNode } from 'react';
 import { Footer } from './footer';
 import { Header } from './header';
-import Link from 'next/link';
 
 const name = 'Kotaro';
 export const siteTitle = 'Tailwind練習中';
@@ -28,7 +27,7 @@ export const Layout = (props: { children: ReactNode }) => {
       <Header />
 
       <main className='flex-1 bg-gray-200 dark:bg-gray-700 p-20'>
-        {name}
+        {/* {name} */}
         {props.children}
       </main>
 

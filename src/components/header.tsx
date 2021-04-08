@@ -56,15 +56,6 @@ export const Header = () => {
           <div className='animate-pulse h-5 w-5 mr-3 duration-700 transition-colors text-green-400 text-opacity-90 text-2xl mt-10 absolute top-20 left-20'>
             ❤
           </div>
-          <div className='animate-pulse h-5 w-5 mr-3 duration-700 transition-colors text-green-400 text-opacity-90 text-4xl mt-10 absolute top-20 left-20'>
-            ✨
-          </div>
-          <div className='animate-pulse h-4 w-4 mr-3 transition-colors text-green-400 text-opacity-90 text-3xl mt-10 absolute top-18 left-18 '>
-            ❤
-          </div>
-          <div className='animate-pulse h-4 w-4 mr-3 transition-colors text-green-400 text-opacity-90 text-4xl mt-10 absolute top-18 left-18'>
-            ✨
-          </div>
           <div className='animate-spin text-2xl absolute top-13 left-40'>
             ✨
           </div>
@@ -74,7 +65,7 @@ export const Header = () => {
           <div className='animate-spin text-2xl absolute top-60 left-90'>
             ✨
           </div>
-          <div className='whitespace-nowrap animate-bounce delay-1000 duration-1000 transition-colors text-blue-500 text-opacity-70 text-7xl absolute top-60 right-15 hover:text-yellow-400'>
+          <div className='whitespace-nowrap animate-ping delay-1000 duration-1000 transition-colors text-indigo-600 font-semibold uppercase text-opacity-70 text-7xl absolute top-55 right-15 hover:text-yellow-400'>
             kotaro's wolrd
           </div>
         </div>

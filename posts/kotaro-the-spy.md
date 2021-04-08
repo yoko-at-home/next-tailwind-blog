@@ -1,5 +1,6 @@
 ---
-title: 'When to Use Static Generation v.s. Server-side Rendering'
+title: 'Kotaro the Prince'
+subtitle: 'When to Use Static Generation v.s. Server-side Rendering'
 date: '2021-01-02'
 ---
 

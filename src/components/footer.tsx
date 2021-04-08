@@ -1,6 +1,6 @@
 export const Footer = () => {
   return (
-    <footer className='bg-white dark:bg-gray-800 text-center leading-10'>
+    <footer className='bg-white dark:bg-gray-800 text-center leading-10 h-12 align-middle'>
       <small className='text-gray-800 dark:text-white' lang='en'>
         @ {new Date().getFullYear()}{' '}
         <a
