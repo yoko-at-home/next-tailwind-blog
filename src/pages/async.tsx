@@ -2,7 +2,7 @@ import { Layout } from '../components/layout';
 function async() {
   return (
     <Layout>
-      <h2>title</h2>
+      <h2 className='text-3xl text-pink-400 hover:text-green-500'>Async</h2>
       <div className='grid gap-x-8 gap-y-4 grid-cols-3'>
         <div className='vacation-card'>
           <img

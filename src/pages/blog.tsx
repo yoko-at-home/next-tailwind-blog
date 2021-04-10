@@ -11,15 +11,19 @@ function blog({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className='md:container md:mx-auto'>
-        <p className='text-lg'>KotaもNext.jsに入門しました。</p>
+        <p className='text-lg text-gray-500'>KotaもNext.jsに入門しました。</p>
       </section>
       <section className='md:container md:mx-auto mt-4'>
-        <h2 className='text-3xl'>Blog</h2>
+        <h2 className='animate-bounce text-3xl text-yellow-400 hover:text-green-500 hover:translate-x-6'>
+          ✨ Blog ✨
+        </h2>
         <ul className='m-5 auto'>
           {allPostsData.map(({ id, date, title }) => (
             <li className='text-lg' key={id}>
               <Link href={`/posts/${id}`}>
-                <a className='text-lg mt-5'>{title}</a>
+                <a className='text-2xl mt-5 text-indigo-500 hover:text-pink-400 hover:translate-x-8'>
+                  {title}
+                </a>
               </Link>
               <br />
               <small className='pb-5'>

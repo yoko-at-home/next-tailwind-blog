@@ -3,7 +3,9 @@ function sample() {
   return (
     <Layout>
       <section className='md:container md:mx-auto mt-4'>
-        <h2 className='text-3xl'>Blog</h2>
+        <h2 className='text-3xl text-yellow-400 hover:text-green-500'>
+          Sample
+        </h2>
         <div style={{ textAlign: 'left' }}>
           <h1>Hi! I'm building a fake Gatsby site as part of a tutorial!</h1>
           <p>

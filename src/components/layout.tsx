@@ -26,7 +26,7 @@ export const Layout = (props: { children: ReactNode }) => {
       </Head>
       <Header />
 
-      <main className='flex-1 bg-gray-200 dark:bg-gray-700 p-20'>
+      <main className='flex-1 bg-gray-200 dark:bg-gray-700 py-20 px-5 laptop:p-20'>
         {/* {name} */}
         {props.children}
       </main>
