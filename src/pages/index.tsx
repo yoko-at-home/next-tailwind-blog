@@ -21,15 +21,30 @@ export default function Home() {
           (This is a sample website - you’ll be building a site like this in{' '}
           <a href='https://nextjs.org/learn'>our Next.js tutorial</a>.)
         </p>
-        <img
+        <div
           style={{
-            borderRadius: '5px',
-            margin: '20px',
-            boxShadow: '3px 3px 5px 1px rgba(0, 0, 0, 0.6)',
+            position: 'relative',
+            width: '80vw',
+            height: 0,
+            paddingTop: '75%',
+            margin: '0 auto 5rem',
           }}
-          src='https://source.unsplash.com/random/800x700'
-          alt=''
-        />
+        >
+          <div
+            style={{
+              background:
+                'url(https://source.unsplash.com/random/800x700) center center / cover no-repeat',
+              position: 'absolute',
+              top: 0,
+              left: 0,
+              width: '100%',
+              height: '100%',
+              margin: '3rem auto',
+              boxShadow:
+                'rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px',
+            }}
+          ></div>
+        </div>
       </section>
       <FeatureSection />
     </Layout>

@@ -29,6 +29,18 @@ Next.js has two forms of pre-rendering: **Static Generation** and **Server-side 
 
 Importantly, Next.js lets you **choose** which pre-rendering form to use for each page. You can create a "hybrid" Next.js app by using Static Generation for most pages and using Server-side Rendering for others.
 
-<div style='width:80vw; height: 60vh; margin: 0 auto 5rem'>
-<iframe width="100%" height="100%" src='https://source.unsplash.com/random/800x700'frameborder="0" allowfullscreen style="margin: 3rem auto; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></iframe>
+<div style='
+position:relative;
+width:80vw;
+height:0;
+padding-top:75%;
+margin: 0 auto 5rem'>
+<div style="
+background: url(https://source.unsplash.com/random/800x700) center center / cover no-repeat;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+margin: 3rem auto; box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;"></div>
 </div>
